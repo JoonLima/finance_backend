@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{747B85AB-482D-4AA1-9245-EB678EC8DCB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceBackEnd.Api", "src\FinanceBackEnd.Api\FinanceBackEnd.Api.csproj", "{DB55B298-9DB2-403F-ABAE-E2942CA2F43D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{22B8EEC3-C46F-4F63-96BE-5A94B1F763D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceBackEnd.Test", "test\FinanceBackEnd.Test\FinanceBackEnd.Test.csproj", "{A28D7BB4-F48E-4B1E-88A6-266E62FC1F5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB55B298-9DB2-403F-ABAE-E2942CA2F43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB55B298-9DB2-403F-ABAE-E2942CA2F43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB55B298-9DB2-403F-ABAE-E2942CA2F43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB55B298-9DB2-403F-ABAE-E2942CA2F43D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28D7BB4-F48E-4B1E-88A6-266E62FC1F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28D7BB4-F48E-4B1E-88A6-266E62FC1F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28D7BB4-F48E-4B1E-88A6-266E62FC1F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28D7BB4-F48E-4B1E-88A6-266E62FC1F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB55B298-9DB2-403F-ABAE-E2942CA2F43D} = {747B85AB-482D-4AA1-9245-EB678EC8DCB7}
+		{A28D7BB4-F48E-4B1E-88A6-266E62FC1F5D} = {22B8EEC3-C46F-4F63-96BE-5A94B1F763D0}
+	EndGlobalSection
+EndGlobal
